@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Evenex.Api/Evenex.Api.csproj" />
+    <Project Path="src/Evenex.Application/Evenex.Application.csproj" />
+    <Project Path="src/Evenex.Common/Evenex.Common.csproj" />
+    <Project Path="src/Evenex.Domain/Evenex.Domain.csproj" />
+    <Project Path="src/Evenex.Infrastructure/Evenex.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Evenex.Domain.Tests/Evenex.Domain.Tests.csproj" />
+  </Folder>
+</Solution>

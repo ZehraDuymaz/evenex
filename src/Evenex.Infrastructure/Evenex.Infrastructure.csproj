@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Evenex.Domain\Evenex.Domain.csproj" />
+    <ProjectReference Include="..\Evenex.Application\Evenex.Application.csproj" />
+    <ProjectReference Include="..\Evenex.Common\Evenex.Common.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

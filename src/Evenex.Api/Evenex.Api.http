@@ -1,0 +1,6 @@
+@Evenex.Api_HostAddress = http://localhost:5177
+
+GET {{Evenex.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

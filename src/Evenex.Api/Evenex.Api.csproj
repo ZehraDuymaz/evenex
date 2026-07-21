@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+    <PackageReference Include="Microsoft.OpenApi" Version="2.7.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Evenex.Application\Evenex.Application.csproj" />
+    <ProjectReference Include="..\Evenex.Infrastructure\Evenex.Infrastructure.csproj" />
+    <ProjectReference Include="..\Evenex.Common\Evenex.Common.csproj" />
+  </ItemGroup>
+
+</Project>
